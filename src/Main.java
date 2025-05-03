@@ -1,3 +1,15 @@
+/**
+ * Main
+ * /Users/austin/IdeaProjects/shopping-cart/src/Main.java
+ * Created: 5/2/25
+ * Last Modified: 5/2/25
+ *
+ * Description: This is a project I created as part of CIT 2613 Advanced Java final.
+ * It is a mock shopping cart application that utilizes arrays and switch statements to simulate
+ * a user adding items to a cart, and then checking out. The application performs calculations for
+ * subtotals, variables (like taxes and add-ons), and totals.
+ */
+
 import java.util.Scanner;
 
 public class Main {
@@ -25,7 +37,7 @@ public class Main {
             }
 
             System.out.println("4. View Cart & Checkout");
-            System.out.println("Choose a product to add to cart (1-4) or 5 to checkout:");
+            System.out.println("Choose a product to add to cart (1-3) or 4 to checkout:");
 
             int choice = scanner.nextInt();
 
