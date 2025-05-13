@@ -9,14 +9,30 @@
  */
 
 public class Product {
-    String name;
-    double price;
-    int quantity;
+    private String name;
+    private double price;
+    public int quantity;
 
     // Method
     public Product(String name, double price) {
         this.name = name;
         this.price = price;
         this.quantity = 0;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void incrementQuantity() {
+        this.quantity++;
     }
 }
