@@ -3,3 +3,4 @@ Change log:
 - Fully commented code
 - Added full error handling.
 - Cleaned up code.
+- Added README.md
