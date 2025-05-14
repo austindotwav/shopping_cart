@@ -8,18 +8,26 @@
  * creates a method based on the class, so that product can be called as an object in Main.
  */
 
+// product class and constructor
 public class Product {
     private String name;
     private double price;
     public int quantity;
 
-    // Method
     public Product(String name, double price) {
         this.name = name;
         this.price = price;
         this.quantity = 0;
     }
 
+    // default constructor
+    public Product() {
+        this.name = "Product";
+        this.price = 0.00;
+        this.quantity = 0;
+    }
+
+    // product instance methods
     public String getName() {
         return name;
     }
